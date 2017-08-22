@@ -23,3 +23,6 @@ if [[ -n "$has_dlnd_env" ]]; then
 else
     conda create -n dlnd --file requirements.txt --yes
 fi
+
+source activate dlnd
+pip install git+git://github.com/akaihola/ipython_pytest@master

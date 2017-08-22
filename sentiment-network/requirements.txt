@@ -1,4 +1,5 @@
+bokeh
 matplotlib
 notebook
+pytest
 scikit-learn
-bokeh
