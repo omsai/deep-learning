@@ -25,4 +25,4 @@ else
 fi
 
 source activate dlnd
-pip install git+git://github.com/akaihola/ipython_pytest@master
+pip install git+git://github.com/akaihola/ipython_pytest@master pytest-pylint
